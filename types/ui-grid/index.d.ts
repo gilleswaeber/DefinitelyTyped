@@ -3919,6 +3919,11 @@ declare namespace uiGrid {
          */
         noTerm?: boolean;
         /**
+         * Set this to true if you have defined a custom function in condition, and your
+         * custom function requires access to the raw unmodified search term that was entered
+         */
+        rawTerm?: boolean;
+        /**
          * only flag currently available is caseSensitive, set to false if you don't want case sensitive matching
          */
         flags?: IFilterFlags;
